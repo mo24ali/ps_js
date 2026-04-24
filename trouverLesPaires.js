@@ -1,6 +1,6 @@
 function findPairs(arr, X){
     let pairs = []
-    for(let i = 0 ; i < arr.length ; i++){
+    for(let i = 0 ; i < arr.length-1 ; i++){
         for(let j = i+1 ; j < arr.length ; j++){
             if(arr[i] + arr[j] == X){
                 pairs.push([arr[i],arr[j]])
